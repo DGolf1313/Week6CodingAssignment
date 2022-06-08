@@ -31,13 +31,13 @@ public class App {
 				System.out.println("Player 2's card is: " + player2Card.describeCard());
 				System.out.println("Player 1 wins the point");
 				System.out.println();}
-			if( player1Card.getCardValue() < player2Card.getCardValue()) {
+			else if( player1Card.getCardValue() < player2Card.getCardValue()) {
 				player2.incrementScore();
 				System.out.println("Player 1's card is: " + player1Card.describeCard());
 				System.out.println("Player 2's card is: " + player2Card.describeCard());
 				System.out.println("Player 2 wins the point");
 				System.out.println();}
-			if ( player1Card == player2Card) {
+			else if ( player1Card.getCardValue() == player2Card.getCardValue()) {
 				System.out.println("Player 1's card is: " + player1Card.describeCard());
 				System.out.println("Player 2's card is: " + player2Card.describeCard());
 				System.out.println("The cards were the same, no points were earned.");

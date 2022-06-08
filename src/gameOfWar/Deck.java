@@ -20,9 +20,7 @@ public class Deck {
 			cardInDeck.add(clubs);
 			Card diamonds = new Card (i, "Diamonds");
 			cardInDeck.add(diamonds);
-			
 		}
-		
 	}
 	
 	//takes a deck and randomizes the cards
@@ -35,11 +33,7 @@ public class Deck {
 		Card topCardOfDeck = cardInDeck.get(0);
 		cardInDeck.remove(0);
 		return topCardOfDeck;
-		
-	
 	}
-	
-	
 }
 	
 	
