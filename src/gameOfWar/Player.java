@@ -18,17 +18,6 @@ public class Player {
 		this.setCardsInHand(cardsInHand);
 	}
 	
-	/* unused, but didn't want to delete yet
-	 * //takes a deck, shuffles and distributes it between two players public void
-	 * dealPlayersHands(Player player1, Player player2) { Deck currentDeck = new
-	 * Deck(); currentDeck.shuffle(); for (int i =0; i < 26; i++) {
-	 * player1.getCardsInHand().add(currentDeck.draw());
-	 * player2.getCardsInHand().add(currentDeck.draw()); }
-	 * 
-	 * }
-	 */
-	
-	
 	//describes a player and gives their current score
 	public String describe() {
 		StringBuilder results = new StringBuilder();
