@@ -13,7 +13,6 @@ public class Player {
 	public Player(String playerName) {
 		List<Card> cardsInHand = new ArrayList<Card>();
 		int score = 0;
-		
 		this.playerName = playerName;
 		this.setCardsInHand(cardsInHand);
 	}
@@ -22,9 +21,6 @@ public class Player {
 	public String describe() {
 		StringBuilder results = new StringBuilder();
 		results.append("Hello I'm " + playerName + " and my score was: " + score);
-		//for(int i = 0; i <26; i++) {
-		//getCardsInHand().get(i).describeCard();
-		
 		return results.toString();
 			 
 	}

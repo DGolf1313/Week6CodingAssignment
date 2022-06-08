@@ -7,7 +7,6 @@ public class App {
 		//instantiating a new deck
 		Deck deck = new Deck();
 		
-		
 		//Shuffling the deck
 		deck.shuffle();
 		
@@ -59,7 +58,6 @@ public class App {
 				System.out.println("The game has ended in a draw");
 			}
 		}
-		
 	}
 
 

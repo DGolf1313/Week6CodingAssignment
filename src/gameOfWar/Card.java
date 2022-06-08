@@ -8,6 +8,7 @@ public class Card {
 		this.setCardValue(cardValue);
 		this.setcardName(cardName);
 	}
+	
 	// getters and setters
 	public int getCardValue() {
 		return cardValue;
@@ -24,6 +25,7 @@ public class Card {
 	public void setcardName(String cardName) {
 		this.cardName = cardName;
 	}
+	
 	//gives a description of a card
 	public StringBuilder describeCard() {
 		StringBuilder returnDescription = new StringBuilder();
